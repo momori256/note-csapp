@@ -1,0 +1,1 @@
+gcc -o vec -Wall -O1 vec.c && for i in `seq 1 5`; do ./vec $i 2000000000; done
